@@ -4,13 +4,13 @@
 The goal of this project is to improve train traffic management in stations using both automatic and manual control to reduce delays caused by:
 Track congestion.
 Inability to enter the station due to an occupied track.
-The system allows manual or automatic control on Raspberry Pi 3.
+The system allows manual or automatic control on Raspberry Pi CM5.
 It can display real-time updates on a local GUI, and users can also access the information remotely through an HTML web interface hosted on GitHub Pages.
 Additionally, the system sends updates to a JSON file on GitHub Gist, which the web interface reads to reflect changes in real-time.
 
 ## 2. System Diagram
 
-<img width="1536" height="1024" alt="project diagram" src="https://github.com/user-attachments/assets/c2a8f0d6-4954-4de4-b410-168739f4ba05" />
+<img width="1536" height="1024" alt="a" src="https://github.com/user-attachments/assets/37fd144a-084a-40c6-89f9-0b25991b34a4" />
 
 - Trains move along the tracks.
 - Raspberry Pi controls switches and reads sensors.
@@ -21,7 +21,7 @@ Additionally, the system sends updates to a JSON file on GitHub Gist, which the 
 - **Buildroot** for running the system on the Raspberry Pi.
 
 ## 4. Hardware Platform
-- Raspberry Pi 3
+- Raspberry Pi CM5
 - Touchscreen display
 - Electric switches to control train movement
 - Sensors to detect track occupancy
