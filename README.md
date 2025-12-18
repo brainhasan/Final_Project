@@ -10,13 +10,7 @@ Additionally, the system sends updates to a JSON file on GitHub Gist, which the 
 
 ## 2. System Diagram
 
-+-----------------+        +---------------------+       +-----------------+
-|   Train Station | <----> | Raspberry Pi CM5    | <-->  |   Web Interface |
-| Tracks & Switch |        | GPIO & Control      |       |   HTML/JS/CSS   |
-+-----------------+        +---------------------+       +-----------------+
-         ^                          |
-         |                          |
-         +--------Sensors------------+
+<img width="1536" height="1024" alt="project diagram" src="https://github.com/user-attachments/assets/c2a8f0d6-4954-4de4-b410-168739f4ba05" />
 
 - Trains move along the tracks.
 - Raspberry Pi controls switches and reads sensors.
@@ -27,7 +21,7 @@ Additionally, the system sends updates to a JSON file on GitHub Gist, which the 
 - **Buildroot** for running the system on the Raspberry Pi.
 
 ## 4. Hardware Platform
-- Raspberry Pi 4
+- Raspberry Pi 3
 - Touchscreen display
 - Electric switches to control train movement
 - Sensors to detect track occupancy
